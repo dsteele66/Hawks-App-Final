@@ -1,4 +1,4 @@
-Atlanta Sports App 
+HAWKS SPORTS APP 
 
 Sports
 I am creating a sports app that allows you to track the roster of the best players on the ATL Hawks. 
