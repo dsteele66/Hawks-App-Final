@@ -1,0 +1,43 @@
+<!-- views/todos/index.hbs -->
+<header class="d-flex justify-content-between align-items-center">
+  {{!-- <h1>Add a New Player</h1>
+  <a href="/roster/new" class="btn btn-primary">New To Do</a> --}}
+ 
+</header>
+<h1 class="d-flex justify-content-between align-items-center text-danger">2020-2021 ATL Hawks Roster</h1>
+<a href="/" class="btn btn-dark text-warning">Home</a>
+<a href="/roster/new" class="btn btn-dark text-warning">New Player</a>
+<br>
+<br>
+
+<ul class="list-group">
+  {{#each roster}}
+
+  <li class="list-group-item d-flex justify-content-between">
+    <label for="name"> Player:</label>
+    <div class="col-sm text-danger">{{this.name}}</div>
+
+    <label for="points"> Points:</label>
+    <div class="col-sm text-danger">{{this.points}}</div>
+
+    <label for="rebounds"> Rebounds:</label>
+    <div class="col-sm text-danger">{{this.rebounds}}</div>
+
+    <label for="assists"> Assists:</label>
+    <div class="col-sm text-danger">{{this.assists}}</div>
+    <div class="links">
+      <!-- for actions later -->
+<form action="/roster/{{this.id}}?_method=DELETE" method="POST" class="d-inline">
+  <input type="submit" value="Delete" class="btn btn-dark text-warning" />
+</form>
+    </div>
+  </li>
+          <!--insert this anchor tag into the div with a class of 'links'-->
+<a href="/roster/{{this.id}}" class="btn btn-danger text-warning">View</a>
+<!--insert this anchor tag into the div with a class of 'links'-->
+<a href="/roster/{{this.id}}/edit" class="btn btn-dark text-warning">Edit</a>
+<!--insert this anchor tag into the div with a class of 'links'-->
+
+  {{/each}}
+</ul>
+  

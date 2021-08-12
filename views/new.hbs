@@ -1,0 +1,20 @@
+<!--views/todos/new.hbs-->
+<h2 class="text-dark">Add New Player</h2>
+<form action="/roster" method="POST">
+  <div class="form-group">
+    <label for="name">Player:</label>
+    <input type="text" id="name" name="name" class="form-control" />
+
+      <label for="name">Points:</label>
+    <input type="text" id="points" name="points" class="form-control" />
+
+      <label for="name">Rebounds:</label>
+    <input type="text" id="rebounds" name="rebounds" class="form-control" />
+
+      <label for="name">Assists:</label>
+    <input type="text" id="assists" name="assists" class="form-control" />
+  </div>
+
+  <input type="submit" class="btn btn-danger  text-dark" />
+  <a href="/roster" class="btn btn-dark text-danger ">Back</a>
+</form>

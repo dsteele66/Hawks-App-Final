@@ -1,0 +1,55 @@
+[
+    {
+      "name": "Trae Young",
+      "jersey": 11,
+      "points": 25.3,
+      "rebounds": 3.9,
+      "assists": 9.4
+      
+    },
+    {
+      "name": "John Collins",
+      "jersey": 20,
+      "points": 17.6,
+      "rebounds": 7.4,
+      "assists": 1.2
+       
+    },
+    {
+      "name": "Kevin Huerter",
+      "jersey": 3,
+      "points": 11.4,
+      "rebounds": 3.8,
+      "assists": 2.2
+       
+    },
+    {
+      "name": "Bogdan Bogdanovic",
+      "jersey": 13,
+      "points": 16.4,
+      "rebounds": 3.6,
+      "assists": 3.3
+    },
+    {
+      "name": "Clint Capela",
+      "jersey": 15,
+      "points": 15.2,
+      "rebounds": 14.3,
+      "assists": 0.8
+    },
+    {
+      "name": "Lou Williams",
+      "jersey": 6,
+      "points": 10.0,
+      "rebounds": 2.1, 
+      "assists": 3.4,
+      "nickname": "Lemon Pepper Lou"
+    },
+    {
+      "name": "Danilo Gallinari",
+      "jersey": 8,
+      "points": 13.3,
+      "rebounds": 4.1,
+      "assists": 1.5
+    }
+  ]
