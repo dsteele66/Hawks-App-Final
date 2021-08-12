@@ -2,6 +2,7 @@ HAWKS SPORTS APP
 
 Sports
 I am creating a sports app that allows you to track the roster of the best players on the ATL Hawks. 
+https://quiet-everglades-92499.herokuapp.com/roster
 
 MVP
 The app will hold the team,
@@ -72,13 +73,3 @@ Tech Used:
 
 
 
-dsteel10
-ds-9809207
-https is the protocol 
-protocol;//address/domain/origin[port]
-https://google.com
-http://127.0.0.1:5500/project_awesome/
-`mongodb://localhost:27017/express-mvc`
-
-
-heroku config:set DB_URl="mongodb+srv://dsteel10:<ds-9809207>@cluster0.u4j0r.mongodb.net/deployproject2?retryWrites=true&w=majority"109e1bbd9dc9e27a6d1f587
